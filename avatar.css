@@ -1,0 +1,93 @@
+body{
+    background: linear-gradient(to right,
+     rgb(23, 1, 23),black);
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    font-family: sans-serif;
+    align-items: center;
+
+
+}
+
+.contaner{
+    width: 90%;
+    height: 90%;
+    background-position: center;
+    background: linear-gradient(to right,
+    rgb(23, 1, 23), rgba(244, 244, 247, 0.561) ),
+    url(avatar.webp);
+    border-radius: 15px;
+   
+}
+
+.contaner:hover{
+    background: linear-gradient(to right,
+     rgb(67, 3, 67), rgba(244, 244, 247, 0) ),
+    url(avatar.webp);
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: antiquewhite;
+    margin: 10px;
+    padding: 5px;
+    letter-spacing: 1px;
+    font-size: 25px;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: antiquewhite;
+    letter-spacing: 1px;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+h1{
+    color: antiquewhite;
+    margin: 40px;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+.lorem-div{
+    width: 50%;
+    margin: 40px;
+    letter-spacing: 1px;
+    color: antiquewhite;
+}
+
+.btn{
+    margin: 40px;
+    padding: 6px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border-color: antiquewhite;
+    color: aliceblue;
+}
+
+.nav a:hover{
+    background-color: rgb(42, 1, 1);
+    padding: 5px;
+    border-radius: 8px;
+}
