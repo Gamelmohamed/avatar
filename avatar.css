@@ -19,11 +19,8 @@ body{
     rgb(23, 1, 23), rgba(244, 244, 247, 0.561) ),
     url(avatar.webp);
     border-radius: 15px;
-<<<<<<< HEAD
-    background-size:cover;
-=======
     backgeround-size: cover;
->>>>>>> 2749121bc5f71f2161b438330f81f38da0b3cbb0
+
    
 }
 
